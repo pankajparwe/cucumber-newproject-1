@@ -1,0 +1,85 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-04T18:53:14.265Z",
+        "line": 6,
+        "name": "User is able to login with correct username and password",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-login-so-that;user-is-able-to-login-with-correct-username-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.get(String)\" because \"this.driver\" is null\r\n\tat stepdefs.stepdef.i_am_on_the_login_page(stepdef.java:54)\r\n\tat ✽.I am on the login page(classpath:features/login.feature:7)\r\n",
+              "duration": 2692154000,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "I am on the login page",
+            "match": {
+              "location": "stepdefs.stepdef.i_am_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000200,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "I login using username as \"username\" and password as \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 53
+                }
+              ],
+              "location": "stepdefs.stepdef.i_login_using_username_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I am able to login in the app",
+            "match": {
+              "location": "stepdefs.stepdef.i_am_able_to_login_in_the_app()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      }
+    ],
+    "name": "As a user I should be able to login So that",
+    "description": "  I can use the functionalities  of the app",
+    "id": "as-a-user-i-should-be-able-to-login-so-that",
+    "keyword": "Feature",
+    "uri": "classpath:features/login.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
